@@ -17,7 +17,7 @@ class TRNNConfig(object):
     rnn = 'lstm'             # lstm 或 gru
 
     dropout_keep_prob = 0.8 # dropout保留比例
-    learning_rate = 1e-2    # 学习率
+    learning_rate = 1e-4    # 学习率
 
     batch_size = 128         # 每批训练大小
     num_epochs = 10          # 总迭代轮次
