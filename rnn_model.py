@@ -8,12 +8,12 @@ class TRNNConfig(object):
 
     # 模型参数
     embedding_dim = 64      # 词向量维度
-    seq_length = 600        # 序列长度
+    seq_length = 30        # 序列长度
     num_classes = 2        # 类别数
     vocab_size = 5000       # 词汇表达小
 
-    num_layers= 2           # 隐藏层层数
-    hidden_dim = 128        # 隐藏层神经元
+    num_layers= 4           # 隐藏层层数
+    hidden_dim = 256        # 隐藏层神经元
     rnn = 'lstm'             # lstm 或 gru
 
     dropout_keep_prob = 0.8 # dropout保留比例
