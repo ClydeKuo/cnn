@@ -19,7 +19,7 @@ class TRNNConfig(object):
     dropout_keep_prob = 0.8 # dropout保留比例
     learning_rate = 1e-2    # 学习率
 
-    batch_size = 128         # 每批训练大小
+    batch_size = 512         # 每批训练大小
     num_epochs = 10          # 总迭代轮次
 
     print_per_batch = 100    # 每多少轮输出一次结果
